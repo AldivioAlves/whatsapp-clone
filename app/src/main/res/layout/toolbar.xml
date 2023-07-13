@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Toobar" />
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/material_search_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>
